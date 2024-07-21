@@ -1,0 +1,26 @@
+{
+    "name": "Inventory Management",
+    "short_name": "IM",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/dir/img",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

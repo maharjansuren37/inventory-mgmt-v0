@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    background: lightgreen;
+    padding-block: 2rem;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-nav {
+    display: none;
+}
+
+/* card */
+.card-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-panel {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    background: grey;
+    padding: 1rem 2rem;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* side form */
+.side-form {
+    display: none;
+}
+
+/* utilities */
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+}

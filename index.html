@@ -5,8 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory Management</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="/">Inventory Management</a>
+                <span>Menu</span>
+            </div>
+            <nav class="side-nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="subheader">IM</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="card-wrapper">
+            <div class="card-panel">
+                <img src="" alt="">
+                <div class="card-details">
+                    <h3>Ramen Noodles</h3>
+                    <p>Quantity: <span>5</span></p>
+                </div>
+                <div class="card-delete">
+                    <button>DELETE</button>
+                </div>
+            </div>
+            <div class="card-panel">
+                <img src="" alt="">
+                <div class="card-details">
+                    <h3>Ramen Noodles</h3>
+                    <p>Quantity: <span>5</span></p>
+                </div>
+                <div class="card-delete">
+                    <button>DELETE</button>
+                </div>
+            </div>
+            <div class="card-panel">
+                <img src="" alt="">
+                <div class="card-details">
+                    <h3>Ramen Noodles</h3>
+                    <p>Quantity: <span>5</span></p>
+                </div>
+                <div class="card-delete">
+                    <button>DELETE</button>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <a class="add-btn" data-target="side-form">Add</a>
+        </div>
+
+        <div id="side-form" class="side-form">
+            <form class="add-item">
+                <h5>New Item</h5>
+                <hr>
+                <div class="input-field">
+                    <input type="text" id="title" placeholder="e.g. chocolate">
+                    <label for="title">Item Name</label>
+                </div>
+                <div class="input-field">
+                    <input type="number" id="quantity" placeholder="e.g. $10">
+                    <label for="quantity">Item Quantity</label>
+                </div>
+                <div>
+                    <button class="btn">Add</button>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
